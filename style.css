@@ -1,0 +1,124 @@
+body {
+  background-image: url(https://i.pinimg.com/564x/11/28/47/11284736e37d8429d0d32c4193e51fe9.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  font-size: 65px;
+  margin-top: 200px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #247291;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  border: 1px solid #247291;
+  line-height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.flag {
+  margin: 0 auto;
+}
+.photo-first {
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+}
+.photo-second {
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 50px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+}
+.photo-line {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.paragraf {
+  line-height: 1.5;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 110px;
+  margin-right: 110px;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  border-radius: 20px;
+  padding: 30px;
+  display: block;
+}
+.paragraf:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.site {
+  display: block;
+  text-decoration: none;
+  color: #247291;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50;
+  margin-bottom: 50px;
+}
+.site:hover {
+  text-decoration: underline;
+}
+button {
+  display: block;
+  margin: 60px auto;
+  font-size: 25px;
+  background-color: #247291;
+  color: rgb(217, 217, 27);
+  padding: 30px 60px;
+  border-radius: 40px;
+  border: none;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.new-photo {
+  text-align: center;
+}
+.gonchar,
+.gonchar-first,
+.gonchar-second {
+  border-radius: 50px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.gonchar-first,
+.gonchar-second {
+  margin-bottom: 100px;
+}
+.olesia {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+  color: #247291;
+}
+.kononova {
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+}
+.kononova:hover {
+  text-decoration: underline;
+}

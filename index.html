@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UKRAINE-HONCHAR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>UKRAINE</h1>
+      <h2>About the Honchar Museum in Kyiv</h2>
+      <h3>Mission</h3>
+      <div class="gradient">
+        <div class="photo-line">
+          <img
+            class="photo-first"
+            src="https://baza.honchar.org.ua/upload/_thumbs/_site/e8d6e286af936c441244e30b18dc3739.jpg"
+            alt="Photo"
+            width="400"
+          />
+          <img
+            class="photo-second"
+            src="https://baza.honchar.org.ua/upload/_thumbs/_site/377d4327cf041c10a99f511f6ff87753.jpg"
+            alt="Photo"
+            width="400"
+          />
+          <img
+            class="photo-first"
+            src="https://baza.honchar.org.ua/upload/_thumbs/_site/d7c0df85d99a8d22974c4ec9a66e1379.jpg"
+            alt="Photo"
+            width="360"
+          />
+        </div>
+        <hr />
+        <p class="paragraf">
+          The <em> Ivan Honchar Museum</em> National Centre of Folk Culture is
+          an open art and culture, educational, scientific and recreational
+          space. It fosters knowledge and experience in the field of traditional
+          folk culture. In contemporary society, the museum functions as the
+          caretaker of the past and the leader of new visions and ideas.
+          Together, these factors actively shape the future. The museum was
+          created based on Ivan Honchar’s ethnographic collection and inspired
+          by his social and cultural activities.<br />
+          <strong> Mission:</strong> To build a society that values, preserves,
+          and maintains Ukrainian cultural heritage and contemporary forms of
+          traditional folk culture into the future <br />
+          <strong> Concept:</strong> Living tradition<br />
+          <strong>Our Values:</strong> Openness, freedom, creativity, public
+          service, and partnership
+        </p>
+        <hr />
+        <div class="new-photo">
+          <a class="site" href="https://honchar.org.ua/en" target="_blank"
+            >Visit Museum Site</a
+          >
+          <img
+            class="gonchar-first"
+            src="https://baza.honchar.org.ua/upload/_thumbs/_site/ea1c834dac3b9c6aa89f308912b40664.jpg"
+            alt="Photo"
+            width="400"
+          />
+          <img
+            class="gonchar"
+            src="https://baza.honchar.org.ua/upload/_thumbs/_site/5e8574b1b520875c01bd8c398ba8f883.jpg"
+            alt="Photo"
+            width="350"
+          />
+          <img
+            class="gonchar-second"
+            src="https://baza.honchar.org.ua/upload/_thumbs/_site/8a204bd3f9f98810815283b7f2563d75.jpg"
+            alt="Photo"
+            width="400"
+          />
+        </div>
+        <button class="visit-button">Visit Museum</button>
+        <p class="olesia">
+          This page was built by
+          <a
+            class="kononova"
+            href="https://www.facebook.com/olesya.kononova/"
+            target="_blank"
+            >Olesia Kononova</a
+          >
+        </p>
+      </div>
+    </div>
+    <script>
+      function visit() {
+        let name = prompt("Hi! 👋What is your name?");
+        let date = prompt(
+          "What day in August do you want to visit the Museum?"
+        );
+        let email = prompt("What is your email address?");
+        if (date >= 10) {
+          alert(
+            "Thank you " +
+              name +
+              " 🌸! We will send you a confirmation for the " +
+              date +
+              " of August on your email " +
+              email +
+              " Good luck 🍀 And see you in Museum 🥰"
+          );
+        } else {
+          alert(
+            "Sorry " +
+              name +
+              " 🌸! That day sold out, you can choose any day after 10 August! Good luck 🍀🍀🍀"
+          );
+        }
+      }
+      let visitButton = document.querySelector(".visit-button");
+      visitButton.addEventListener("click", visit);
+    </script>
+  </body>
+</html>
