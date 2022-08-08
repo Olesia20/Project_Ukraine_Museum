@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UKRAINE-HONCHAR</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="container">
@@ -86,33 +86,6 @@
         </p>
       </div>
     </div>
-    <script>
-      function visit() {
-        let name = prompt("Hi! 👋What is your name?");
-        let date = prompt(
-          "What day in August do you want to visit the Museum?"
-        );
-        let email = prompt("What is your email address?");
-        if (date >= 10) {
-          alert(
-            "Thank you " +
-              name +
-              " 🌸! We will send you a confirmation for the " +
-              date +
-              " of August on your email " +
-              email +
-              " Good luck 🍀 And see you in Museum 🥰"
-          );
-        } else {
-          alert(
-            "Sorry " +
-              name +
-              " 🌸! That day sold out, you can choose any day after 10 August! Good luck 🍀🍀🍀"
-          );
-        }
-      }
-      let visitButton = document.querySelector(".visit-button");
-      visitButton.addEventListener("click", visit);
-    </script>
+    <script src="src/script.js"></script>
   </body>
 </html>
